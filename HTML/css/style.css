@@ -267,6 +267,7 @@ footer center ul li a:hover{ color:#999; text-decoration:none;}
 .box2 img { display:block; width:100%; border:solid 20px #8c2a1d;}
 .box-img:hover .overlay-box1, .box-img:hover .overlay-box2 { display:block;}
 .box-img:hover .outer-box-info { display:block;}
+/*how it works ends here*/
 
 /*Features starts here*/
 .feature-outer { width:100%; position:relative; padding-bottom:0!important;}
