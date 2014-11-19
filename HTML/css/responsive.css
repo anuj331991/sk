@@ -1,0 +1,101 @@
+/* Medium devices (desktops, 960px and up) */
+@media (min-width:1058px) { 
+
+ 
+}
+
+
+/* Small devices (tablets, 320px and up) */
+@media only screen and (min-width: 320px) and (max-width: 1057px)
+{ 
+.logo img{ height:50px; width:auto;}
+
+}
+
+
+
+/*@media (min-width: 320px) and (max-width: 500px) {*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .logo{ float:none !important; text-align:center !important;} 
+ nav{ float:none !important;}
+ 
+ }
+	
+
+@media (min-width: 320px) and (max-width: 640px) {
+.logo{ float:none !important; text-align:center !important;} 
+ nav{ float:none !important;}
+}
+
+@media only screen and (max-width: 950px) {
+.how-outer { padding:0 20px 78px 20px;}
+.content-side { width:48%;}
+.video-side { width:48%;}
+.get-started-box { padding:50px 20px;}
+.feature-box table tr td:first-child { font-size:22px;}
+.feature-box { width:100%;}
+
+}
+@media only screen and (max-width: 800px) {
+.box-info { width:80%; padding-top:10%;}
+.you-tube-arrow { width:85px; height:96px; margin:-47px 0 0 -44px;}
+.cont-hd { font-size:28px;}
+.content-side ul li { font-size:18px;}
+.bx-title { font-size:30px;}
+.box-btn a { padding: 10px 25px 0; height:48px;}
+.box-btn { margin-top:20px;}
+}
+@media only screen and (max-width: 667px) {
+.feature-box table, .feature-inner { width:700px;}
+.feature-inner { padding-bottom:60px;}
+#scrollbox2 {
+    overflow: auto;
+    padding: 0 5px;
+	width:100%;
+}
+
+.horizontal-track2 {
+    width: 100%;
+    height: 10px;
+	margin:-30px -15px 0 0;
+}
+
+.horizontal-handle2 {
+    height: 10px;
+}
+.horizontal-handle2 .left {
+    width: 10px;
+    height: 10px;
+    background:#fff;
+	border-radius:4px;
+}
+
+.horizontal-handle2 .right {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+	border-radius:4px;
+}
+
+}
+@media only screen and (max-width: 600px) {
+.content-side { float:none; width:100%;}
+.video-side { float:none; width:100%;}
+.content-side ul li { margin-bottom:10px;}
+.box-img { float:none; width:100%; margin:10px 0;}
+.box-info { margin-top:30%;}
+.bx-title { font-size:24px;}
+}
+
+@media only screen and (max-width: 479px) {
+.box-info { margin-top:4%;}
+
+}
+
+
+
+
